@@ -1,0 +1,52 @@
+.home {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.cities {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-left: 60px;
+}
+
+.city-name {
+    padding: .5rem 1rem;
+    background-color: rgb(229, 228, 247);
+    border-radius: 20px;
+    color: #333;
+    font-weight: bold;
+    cursor: pointer;
+    transition: ease 200ms;
+}
+
+.city-active {
+    background-color: rgba(80, 82, 230, 1);
+    color: white;
+}
+
+.show-more {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.show-more button {
+    display: flex;
+    align-items: center;
+    padding: .5rem 1rem;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(80, 82, 230, 1);
+    border: none;
+    border-radius: 20px;
+    transition: ease 200ms;
+    cursor: pointer;
+}
+
+.show-more button:hover {
+    background-color: rgb(45, 48, 229);
+}
